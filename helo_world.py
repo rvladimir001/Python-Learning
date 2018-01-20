@@ -1,2 +1,3 @@
 #coding UTF-8
-print("Hello World! \n И привет всем изучающим.")
+print("Hello World! \nИ привет всем изучающим.")
+print("Еще что-нибудь")
