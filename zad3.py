@@ -1,4 +1,5 @@
 print("Сейчас будем расчитывать гипотенузу.\nВведите катеты:")
 a=float(input("->"))
 b=float(input("->"))
-print("Гипотенуза равна",(a**2+b**2)**0.5)
+hypotenuse=a+b
+print("Гипотенуза равна",hypotenuse)
