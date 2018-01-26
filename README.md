@@ -11,8 +11,8 @@
 
 Алексей Л.
 
-Олег
+Олег  https://github.com/IStealYourSkill/python
 
-Сергей
+Сергей  https://github.com/0mUltramar/Manual-snake
 
-Владимир П.
+Владимир П. https://github.com/vofchik/python_learning
