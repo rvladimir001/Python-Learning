@@ -6,18 +6,15 @@
 #первый вариант
 num = input("Введите число ->")
 count =1
-if int(num) < 1000:
-    for i in num:
-        if int(num) >= 100:
-            count *= int(i)
-        else:
-            print("Не верные данные.")
-            break
+if int(num) < 1000 or int(num) >= 100:
+    for i in num:   #идем по каждому символу в переменной
+        count *= int(i)
     print("Произведение чисел числа {} равно {}".format(num, count))
 else:
     print("Не верные данные.")
 
 print("~" * 70)
+
 #второй вариант
 n = int(input("Введите трехзначное число: "))
 
