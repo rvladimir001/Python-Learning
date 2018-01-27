@@ -6,9 +6,8 @@
 1 2 3 4 5
 """
 #первый вариант
-for i in range(6):
-    if i > 0:
-        print(i, end=" ")
+for i in range(1, 6):
+    print(i, end=" ")
 else:
     print("Конец.")
 
