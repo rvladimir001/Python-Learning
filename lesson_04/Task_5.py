@@ -5,9 +5,9 @@
 """
 
 num = int(input("Введите число ->"))
-chetnye = 0
+KakZnayuTakPishu = 0
 while num > 0:
     if num % 2 == 0:
-        chetnye += 1
+        KakZnayuTakPishu += 1
     num = num // 10
-print("В числе {} чентых цифр".format(chetnye))
+print("В числе {} чентых цифр".format(KakZnayuTakPishu))
