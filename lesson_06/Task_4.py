@@ -49,6 +49,6 @@ num = lst[0]
 for i in lst:
     if i > num:
         num = i
-        i +=1
+#        i +=1
 print(num)
 print(lst.index(num))
