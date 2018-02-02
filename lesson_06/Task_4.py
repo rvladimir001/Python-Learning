@@ -7,13 +7,12 @@
 """
 #first variant
 #наполняем список рандомными числами
+print("1" * 50)
 import random
 
-lst = []
-i = 0
-while i < 6:
-    lst.append(random.randint(0, 100))
-    i += 1
+count = 6
+
+lst = [random.randint(0, 100) for i in range(count)]
 print(lst)
 
 lst.sort(reverse=True)
@@ -21,32 +20,29 @@ print(lst)
 
 print(lst[0])
 
-print("~" * 50)
+print("2" * 50)
 
 #second variant
 #наполняем список рандомными числами
 import random
 
-lst = []
-i = 0
-while i < 6:
-    lst.append(random.randint(0, 100))
-    i += 1
+count = 6
+
+lst = [random.randint(0, 100) for i in range(count)]
 print(lst)
 
 print(max(lst))
+print(lst.index(max(lst)))
 
-print("~" * 50)
+print("3" * 50)
 
 #
 #наполняем список рандомными числами
 import random
 
-lst = []
-i = 0
-while i < 6:
-    lst.append(random.randint(0, 100))
-    i += 1
+count = 6
+
+lst = [random.randint(0, 100) for i in range(count)]
 print(lst)
 
 num = lst[0]
@@ -55,3 +51,4 @@ for i in lst:
         num = i
         i +=1
 print(num)
+print(lst.index(num))
