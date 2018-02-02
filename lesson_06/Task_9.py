@@ -7,4 +7,4 @@
 st = input("Введите текст, а я подсчитаю сколько в нем слов ->\n")
 lst = st.split()
 print(lst)
-print("Вы ввели {} слов".format(len(lst)))
+print("Вы ввели {} слов/о/а".format(len(lst)))
