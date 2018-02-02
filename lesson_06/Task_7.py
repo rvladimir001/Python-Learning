@@ -7,14 +7,12 @@
 
 import random
 
-lst = list(range(0, 70, 7))
-
+lst = list(range(1, 70, 7))
+lst1 = []
 print(lst)
 
-j = 0
 for i in lst:
-    if i % 3 != 0:
-        lst.remove(i)
-        print(lst)
+    if i % 3 == 0:
+        lst1.append(i)
 
-print(lst)
+print(lst1)
