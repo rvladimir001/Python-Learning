@@ -7,12 +7,11 @@
 
 import random
 
-lst = []
-i = 0
-while i < 10:
-    lst.append(random.randint(0, 100))
-    i += 1
+count = 10
+lst = [random.randint(0, 100) for i in range(count)]
 print(lst)
+
+
 lst1 = lst[0:10:2]
 lst2 = lst[1:10:2]
 print(lst1)
