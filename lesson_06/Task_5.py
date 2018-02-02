@@ -26,6 +26,11 @@ print("lst1=", lst1)
 print("*" * 50)
 lst2 = []
 
+"""выдаст только четные символы
+for i in lst:
+    if i % 2 == 0:
+        lst2.append(i)
+"""
 for i in range(len(lst)):
     if i % 2 == 0:
         lst2.append(lst[i])
