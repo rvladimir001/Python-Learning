@@ -42,5 +42,3 @@ elif inp == "N" or inp == "Н" or inp == "н" or inp == "n":
     exit
 else:
     exit
-#print(perimeter, ploshad, diagonal)
-#print(line())
